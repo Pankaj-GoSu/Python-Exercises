@@ -1,0 +1,11 @@
+"Your Age in 2070(any year) and when you are 100 year old"
+
+Take age or year as a input from the user and tell them when will thay turn 100 years old.
+Don't use any type of module. 
+They can then optionally provide a year and your program must tell their age in that particular year
+
+You Should be handling all sorts of error like:
+# You are not yet born 
+# You seem to be oldest person alive
+# You can also handle any other error if posssible
+
