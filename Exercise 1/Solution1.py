@@ -20,7 +20,8 @@ def age_cal():
                     print("You are now 100 year old")
                 else:
                     age_rem = 100 - age_or_year # To calculate when he will turns 100
-                    print(f"After {age_rem} You will becomes 100 year old")
+                    year_of_birth = 2021 - age_or_year 
+                    print(f"After {age_rem} You will becomes 100 year old and Year is {year_of_birth + 100} ")
             elif (len_age == 4):
                 if(age_or_year >= 2022): #assuming present year is 2021
                     print("You are not yet born")
@@ -46,13 +47,19 @@ age_cal()
 while(True):
     inp = input("You want to know your age [y/n]")
     if (inp == "y"):
-        year = int(input("Enter Your year of birth \n"))
-        if (year<1860):
-            print("According To our System it is not possible")
-        elif(year>2021):
-            print("According To our System you are not yet born")
-        else:
-            print(f"You are now {2021-year} old")
+        try:
+            year = int(input("Enter Your year of birth \n"))
+            if (year<1860):
+                print("According To our System it is not possible")
+            elif(year>2021):
+                print("According To our System you are not yet born")
+            else:
+                print(f"You are now {2021-year} old")
+        except:
+            print("Wrong Input")
+            continue 
+              
+        
     elif(inp == "n"):
         exit()
     else:
