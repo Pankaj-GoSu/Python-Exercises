@@ -1,0 +1,16 @@
+" Divide The Apples "
+
+GoSu has got n numbers of apples. GoSu has some students among whom he wants to distribute the apples.
+These n numbers of apples are provided to GoSu by his friend and friend is you. so he request got 
+few more or few less apples.
+
+You need to print whether a number in range min to max is divisor of n or not .
+
+Input:
+Take input n ,min and max from the user 
+
+it means apples and range of students is given by user.
+
+Output:
+
+Print whether the numbers between min and max are divisor of n or not.
