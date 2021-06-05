@@ -17,11 +17,12 @@ while(True):
     for i in range(a, b + 1):  # making a list , which contain integer value from a to b
         lst.append(i)
     print(lst)
+    # Here we can also use "r = random.randint(a , b) ,It give us random int between a and b"
     r = random.choice(lst)  # Choosing random value from this list "lst"
 
     # print(r) # For testing our generated value
     print(f"Your range of Guessing is between {a} and {b}")
-    print("==============Player 1 Turn================\n")
+    print("==============Player 1's Turn================\n")
     i = 1  # initializing player 1 attempt.
     while True:
         player1_inp = int(
@@ -42,7 +43,7 @@ while(True):
             i += 1
 
     print(f"Your range of Guessing is between {a} and {b}")
-    print("============Player 2 Turn==============\n")
+    print("============Player 2's Turn==============\n")
     j = 1  # initializing player 2 attempt.
     while True:
         player2_inp = int(
