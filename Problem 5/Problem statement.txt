@@ -1,0 +1,10 @@
+" Palindromify The List "
+
+You are given a list which contains some numbers. You have to ptint a list of next palindrome
+only is the number is greater then or equal to 10 otherwise you will print that number
+
+Input:
+[1,6,87,43]
+
+Output:
+[1,6,88,44]
