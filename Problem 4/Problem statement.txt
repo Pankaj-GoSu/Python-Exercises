@@ -1,0 +1,20 @@
+ " The Next Palindrome "
+
+ # A Palindrome is a string which when reversed is equal to itself:
+ Example of Palindrome includes 6116,7557,735537, mom ,10001.
+
+ You have to take a number as an input from the user , You have to find the next palindrome corresponding to that number,
+ Your first input should be 'number os test cases ' and then take all the cases as input from the user.
+
+ Input :
+ test case : 3
+
+451
+10
+2133
+
+Output :
+
+Next palindrome for 451 is 454.
+Next palindrome for 10 is 11.
+Next palindrome fot 2133 is 2222.
