@@ -1,0 +1,20 @@
+ " Food And Calories"
+# You visit a restaurant and food items in this restaurant are sorted based on thier amount of calories.
+You have to reverse this list of food items and their calories.
+
+You have to use following three methos to reverse a list:
+1-Inbuilt method in python
+2-listname[::-1] slicing trick
+3-Swapping first element with last one and second element with second last element and so on...
+
+Input:
+
+Take a list as an input from user.
+[5,4,1]
+
+Output:
+[1,4,5]
+[1,4,5]
+[1,4,5]
+All the three  methods give same results.
+
