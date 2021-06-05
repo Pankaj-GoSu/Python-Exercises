@@ -1,4 +1,11 @@
-# ============= Solution of Problem statement 2 ===================
+# ============= Solution of Problem statement 5 ===================
+
+"""
+Author: Pankaj(GoSu)
+Date: 5 june 2021
+Purpose: Practice problem
+
+"""
 
 print("\t\t Welcome To ! \n\t Palindromify The List")
 len_lst = int(input("Please Enter Length of List:\n"))
@@ -9,7 +16,7 @@ for i in range(len_lst):
     lst.append(int(input("Give Input one by one:\n")))
 # lst = [1, 6, 87, 43]  # Taking list
 
-for item in lst:  # for iterate 'lst' list.
+for item in lst:  # for iterate 'lst' list. Here "item" is element of list.
 
     if item < 10:
         list_out.append(item)
@@ -29,4 +36,5 @@ for item in lst:  # for iterate 'lst' list.
                 else:
                     continue
 
-print(f" Your list {lst} Palindrome into {list_out}")
+print(f" Your list {lst} Palindrome into {list_out}\n")
+

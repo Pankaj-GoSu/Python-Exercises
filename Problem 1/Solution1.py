@@ -1,5 +1,12 @@
 # Solution For Problem statement 1
 
+"""
+Author: Pankaj(GoSu)
+Date: 4 june 2021
+Purpose: Practice problem
+
+"""
+
 def age_cal():
     while(True):
         try:

@@ -1,0 +1,8 @@
+"Guess The number"
+
+# Generate a random integer from a to b . You and your friend have to guess a number between two numbers
+a and b . a and b are taken from the user . Your friend ia player 1 and play first . He Will have to 
+keep choosing the number and your program tell whether the number is greater than the actual number or less than the 
+actual number. Log the number os trials it took your friens to arrive at the number. You play the same
+game and then the person with minimum number os trial wins!
+

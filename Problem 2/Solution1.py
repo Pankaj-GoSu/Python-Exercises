@@ -1,4 +1,10 @@
 # Solution of Problem statement 2
+"""
+Author: Pankaj(GoSu)
+Date: 4 june 2021
+Purpose: Practice problem
+
+"""
 
 print("\t\tWelcome To! \n \t Divide The Apple Program\n")
 while True:

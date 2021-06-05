@@ -1,4 +1,10 @@
 # Solution of Problem statement 3
+"""
+Author: Pankaj(GoSu)
+Date: 4 june 2021
+Purpose: Practice problem
+
+"""
 
 print("\t\t Welcome To! \n Reversing Your list program")
 while(True):
