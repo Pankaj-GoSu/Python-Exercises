@@ -29,3 +29,4 @@ while(True):
         
     except:
         print("Please check your input") # Error handeling using try except 
+        continue
